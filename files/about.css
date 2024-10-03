@@ -1,0 +1,425 @@
+.superb {
+    background-color: black;
+    color: white;
+}
+
+.mainfirst {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.facebooks {
+    display: flex;
+    gap: 20px;
+}
+
+.divlogo {
+    padding-left: 80px;
+}
+
+.callbtn {
+    background-color: black;
+    border: 1px solid #e5bf4a;
+    color: #e5bf4a;
+    padding: 10px;
+    width: 230px;
+}
+
+.mainhome {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bghero1 {
+    background-image: url(./h1_hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.Healthy {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.this {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.mainthis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mainabout {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.thisis {
+    color: #e5bf4a;
+    margin-bottom: 0;
+}
+
+.Schilers {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.Lorempara {
+    margin-top: 10px;
+}
+
+.mainfood {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.starmainfinal {
+    display: flex;
+    justify-content: center;
+
+}
+
+.starmain {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3b3b3b;
+    padding: 40px;
+}
+
+.svgy {
+    color: #e5bf4a;
+}
+
+.Consectetur1 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Wilmapara {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    text-align: center;
+}
+
+.oblog {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.mblogs {
+    background-color: #e5bf4a;
+    color: black;
+    padding: 18px;
+    width: 180px;
+    font-weight: 600;
+}
+.mainblogspara {
+    display: flex;
+    justify-content: center;
+}
+
+.tomatopara {
+    border: 1px solid #3b3b3b;
+    padding: 20px;
+}
+
+.Tomatoa {
+    color: #e5bf4a;
+    font-size: 20px;
+}
+
+.LEARN {
+    color: #e5bf4a;
+}
+
+.followmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.btninsta {
+    color: #e5bf4a;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    gap: 20px;
+    border: 1px solid #e5bf4a;
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+.cakeimgs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.mainhoomepage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.atagdiv {
+    display: flex;
+    gap: 40px;
+}
+
+.Consectetur {
+    width: 40%;
+}
+
+.mainConsectetur {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: start;
+}
+
+.Consecteturabc {
+    font-size: 15px;
+}
+.instabutton {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #3b3b3b;
+    padding: 13px;
+    align-items: center;
+    gap: 20px;
+    width: 180px;
+}
+
+.mainbtns {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+
+.locationsvg {
+    color: #e5bf4a;
+    font-size: 23px;
+}
+
+.colorlib {
+    color: #e5bf4a;
+}
+
+.heartc {
+    color: #e5bf4a;
+}
+
+.lastcopy {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 100px;
+}
+@media screen and (max-width: 700px) {
+    .mainfirst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: o;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mainhome {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bghero1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Healthy {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 930px) {
+    .mainabout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .Schilers {
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .abimg {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .bgvideo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .starmainfinal {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Wilmapara {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .oblog {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 880px) {
+    .mainblogspara {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 830px) {
+    .cakeimgs {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .cakeimg {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .mainhoomepage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mainhoomepage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .atagdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mainConsectetur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainbtns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lastcopy {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}
